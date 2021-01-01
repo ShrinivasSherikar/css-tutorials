@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    /* background-color: black; */
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.brand-title a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    /* padding: 1rem; */
+}
+.brand-title a:hover{
+    background-color: #555;
+    text-decoration: none;
+    color: white;
+}
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}  
+
+#passage a {
+    text-decoration: none;
+
+}
+#passage{
+    border:3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 20px;
+    
+}
+#tool-main-heading{
+    text-decoration: underline;
+    text-align: center;
+    /* display: flex; */
+    font-size: 4rem;
+    margin: auto;
+    text-shadow: 4px 4px 4px #aaa;
+}
+#tool-sub-heading{
+    text-decoration: underline;
+    text-align: center;
+    /* display: flex; */
+    font-size: 20px;
+    margin-top: auto;
+    text-shadow: 4px 4px 4px #aaa;
+    
+}
+#button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin:auto;
+  display:block;
+  margin-top: 100%;
+
+  /* transform: translate(-50%,-50%); */
+}
+
+#button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+
+  

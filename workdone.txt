@@ -1,0 +1,22 @@
+[*] = Done
+
+
+[*]  Login page 
+[*]  different Projects 
+[*]  Web,Nav,Entire Design 
+[*]  Responsive
+[*]  Used PHP with no "ROCKET SCIENCE"
+[*]  Applied "DOWNLOAD" option to site for each "TOOL"
+[*]  TOOL interface 
+[*]  Project = Snake Game 
+[*]  Project = TIC-TAC-TOE
+[*]  Project = TEXT-TO-SPEECH
+[*]  Project = SPEED-TYPING-TESTER
+[*]  Project = TO-DO-LIST
+[*]  Project = PASSWORD-STRENTH-CHECKER
+[*]  Project = SNAKE 2 GAME
+[*]
+[*]
+[*]
+[*]
+[*]
